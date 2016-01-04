@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tianyu Guo</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-reorder"></i></a>
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle" onClick="ga('send', '_trackEvent', 'Navbar', 'Toggle', 'Navbar toggle');"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand"><a href="#top">Tianyu Guo</a>
+            </li>
+            <li><a href="#about" onClick="ga('send', '_trackEvent', 'Navbar', 'About');">About</a>
+            </li>
+            <li><a href="#portfolio" onClick="ga('send', '_trackEvent', 'Navbar', 'Portfolio');">Portfolio</a>
+            </li>
+            <li><a href="#contact" onClick="ga('send', '_trackEvent', 'Navbar', 'Contact');">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Side Menu -->
+
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+        <div class="vert-text">
+            <div class="expandUp">
+                <h1>
+          <div>Hello,</div>
+          <span class="long-word">I am</span>
+          Tianyu Guo.
+        </h1>
+                <h3>Maker, Student, Geek at University of Waterloo Mechatronics</h3>
+            </div>
+            <ul class="list-inline spaced">
+                <li><a href="https://github.com/aamistak" target="_blank" title="Github" alt="Github" onClick="ga('send', '_trackEvent', 'Links', 'Github', 'Github top');"><i class="fa fa-github fa-3x"></i></a>
+                </li>
+                <li><a href="http://stackoverflow.com/users/1750362/alexander-mistakidis" target="_blank" title="Stackoverflow" alt="Stackoverflow" onClick="ga('send', '_trackEvent', 'Links', 'Stackoverflow', 'Stackoverflow top');"><i class="fa fa-stack-overflow fa-3x"></i></a>
+                </li>
+                <li><a href="http://ca.linkedin.com/pub/alexander-mistakidis/4a/975/252" target="_blank" title="LinkedIn" alt="LinkedIn" onClick="ga('send', '_trackEvent', 'Links', 'LinkedIn', 'LinkedIn top');"><i class="fa fa-linkedin fa-3x"></i></a>
+                </li>
+                <li><a href="mailto:mistakidis@gmail.com" title="Email me" alt="Email me" target="_blank" onClick="ga('send', '_trackEvent', 'Links', 'Email', 'Email top');"><i class="fa fa-envelope-o fa-3x"></i></a>
+                </li>
+                <li><a href="resume.pdf" target="_blank" class="resume space-m" onClick="ga('send', '_trackEvent', 'Links', 'Resume', 'Resume top');">Resumé</a>
+                </li>
+            </ul>
+            <a href="#about" class="btn btn-default btn-lg call-to" onClick="ga('send', '_trackEvent', 'Links', 'What else');">More info</a>
+
+        </div>
+
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+    <!-- Intro -->
+    <div id="about" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2  col-md-offset-2 text-center">
+                    <div class="pixelMe toSlideRight" /></div>
+            </div>
+            <div class="col-md-6 text-center">
+                <h2>I am...</h2>
+                <p class="lead">I am a passionate and a dedicated First year Mechatronics Student at University of Waterloo, a maker, electronics enthusiast. I love building engineering projects and use my skill to bring change to my community.  </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h3>Technical Summary</h3>
+                <hr>
+                <dl class="dl-horizontal lead">
+                    <dt>Software Development</dt>
+                    <dd>HTML 5, CSS 3, Javascript, Bootstrap, C, Python, Java</dd>
+                    <dt>Hardware Development</dt>
+                    <dd>3D moduling, Arduino, machining</dd>
+
+                </dl>
+                <a href="#contact" onClick="ga('send', '_trackEvent', 'Links', 'See more');">See more <i class="fa fa-level-down"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- /Intro -->
+    <div class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Recent Work</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio" class="callout">
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/mapd.jpg" alt="...">
+                    <div class="caption">
+                        <h3>Nerovative</h3>
+                        <p>Participated in develop Vibrant - a wearable hardware and programmable therapeutic vibration system. Also assisted with the Vibrant Android app which will cooperate with the hardware. </p>
+                        <p>Java, C, PCB design, soldering, Bluetooth LE, Signal processing with sensors, Contact Chinese manufacturer, order parts from China, writing documentation for the work.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div>
+                        <img src="img/pumpup.jpg" alt="...">
+                    </div>
+                    <div class="caption">
+                        <h3>Symanta Inc.</h3>
+                        <p>Developed BrainGesture gaming system, which allows user to use their thoughts to control games that runs in Android based Virtual Reality Gaming Devices. </p>
+                        <p>Phython, AHK, organizing user testing, Emotiv Epoc brainwave reader</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="img/ttc.jpg" alt="...">
+                    <div class="caption">
+                        <h3>University of Waterloo</h3>
+                        <p>Organized a UWaterloo funded Inaugural hands-on Arduino workshop that that involved over 40 participants which went through a series of small projects related to Arduino Microcontrollers. </p>
+                        <p>Project planning, event organizing, ordering parts from Chinese Manufactures, circuit design, C programming, microcontroller, sensors, actuators.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Findoutmore -->
+    <div id="contact" class="call-to-action">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Findoutmore -->
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <a href="resume.pdf" target="_blank" class="btn btn-lg btn-primary resume toSlideDown" onClick="ga('send', '_trackEvent', 'Links', 'Resume', 'Resume bottom');">Resumé</a>
+
+                    <ul class="list-inline">
+                        <li><a href="https://github.com/aamistak" target="_blank" title="Github" alt="Github" onClick="ga('send', '_trackEvent', 'Links', 'Github', 'Github bottom');"><i class="fa fa-github fa-2x"></i></a>
+                        </li>
+                        <li><a href="http://stackoverflow.com/users/1750362/alexander" target="_blank" title="Stackoverflow" alt="Stackoverflow" onClick="ga('send', '_trackEvent', 'Links', 'Stackoverflow', 'Stackoverflow bottom');"><i class="fa fa-stack-overflow fa-2x"></i></a>
+                        </li>
+                        <li><a href="http://ca.linkedin.com/pub/alexander-mistakidis/4a/975/252" target="_blank" title="LinkedIn" alt="LinkedIn" onClick="ga('send', '_trackEvent', 'Links', 'LinkedIn', 'LinkedIn bottom');"><i class="fa fa-linkedin fa-2x"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled size-m">
+                        <li><i class="fa fa-map-marker"></i> Waterloo, Ontario</li>
+                        <li><i class="fa fa-envelope-o"></i> <a href="mailto:mistakidis@gmail.com" target="_blank" onClick="ga('send', '_trackEvent', 'Links', 'Email', 'Email bottom');">guoty3310@gmail.com</a>
+                        </li>
+                    </ul>
+                    <div class="top-scroll">
+                        <a href="#top" title="Back to top" alt="Back to top"><i class="fa fa-angle-double-up scroll fa-4x"></i></a>
+                    </div>
+                    <hr>
+                    <p>Like the website? <a href="https://github.com/aamistak" target="_blank" class="long-word" onClick="ga('send', '_trackEvent', 'Links', 'Fork it');">View it on GitHub</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.scrolldepth.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
